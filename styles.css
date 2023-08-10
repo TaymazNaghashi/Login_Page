@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "BS";
+    src: url(Assets/Blogger\ Sans-Bold.ttf);
+    /* fontBy:FirstSiteGuide on 1001fonts.com/users/FirstSiteGuide */
+}
+body{
+    background-image:url(Assets/background.jpg);
+    /* BackgroundImageBy:freepik */
+    background-size: cover;
+}
+.inputInfo{
+    font-family: "BS";
+    font-size: 150%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.inputInfo2{
+    font-family: "BS";
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.mainPage{
+   background-color: white;
+   border: 30px solid white;
+   border-radius: 25px;
+   width: 900px;
+   height: 400px;
+   margin: auto;
+   margin-top: 90px;
+   display: grid;
+   grid-template-columns: 40% 60%;
+}
+.title{
+ font-family: "BS";
+ font-size: 400%;
+ margin-left: 70px;
+}
+.logo{
+    width: 160px;
+    height: 160px;
+    margin-top: 80px;
+    margin-left: 72px;
+}
+input{
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 350px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 150%;
+    padding: 15px;
+}
+.login-button{
+    background-color: #5db7e0;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 350px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 150%;
+    font-family: "BS";
+    padding: 15px;
+    text-align: center;
+}
+.login-button:hover{
+    background-color: #5d92e0;
+    cursor: pointer;
+}
+.login-button:active{
+    background-color: #02fe34;
+}
